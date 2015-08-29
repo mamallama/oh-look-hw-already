@@ -1,0 +1,6 @@
+spice_girls = ["Sporty", "Scary", "Ginger", "Posh", "Baby"]
+    x=1
+spice_girls.each do |name|
+    puts "#{x}.#{name}"
+    x += 1
+end
